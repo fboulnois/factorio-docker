@@ -17,7 +17,7 @@ containers for portability
 
 You should replace the `map-gen-settings.json`, `map-settings.json`, and
 `server-settings.json` in the [settings directory](settings) with your own,
-otherwise a default railworld server on LAN will be created.
+otherwise a default railworld server will be created on LAN.
 
 ## Build and Deploy
 
