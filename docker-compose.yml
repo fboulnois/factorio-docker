@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  factorio:
+    image: factorio-docker
+    volumes:
+      - data:/home/nonroot
+    ports:
+      - target: 34197
+        published: 34197
+        protocol: udp
+        mode: host
+volumes:
+  data:
