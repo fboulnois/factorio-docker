@@ -1,6 +1,7 @@
 # Factorio Server in Docker
 
-Runs a minimal [Factorio](https://www.factorio.com/) server in Docker.
+Runs a minimal [Factorio](https://www.factorio.com/) server in Docker. There are
+a few other similar projects on GitHub but none fit my requirements.
 
 ## Features
 
