@@ -1,0 +1,20 @@
+{
+    "name": "My Factorio Docker Server",
+    "description": "Description of the game that will appear in the listing",
+    "tags": [
+        "vanilla",
+        "railworld"
+    ],
+    "max_players": 8,
+    "visibility": {
+        "public": false,
+        "lan": true
+    },
+    "username": "",
+    "password": "",
+    "token": "",
+    "game_password": "",
+    "autosave_interval": 5,
+    "autosave_slots": 5,
+    "afk_autokick_interval": 10
+}
