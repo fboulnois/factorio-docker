@@ -2,7 +2,7 @@ FROM debian:11-slim AS env-build
 
 RUN apt-get update && apt-get install -y curl xz-utils
 
-ARG FACTORIO_VERSION=1.1.72
+ARG FACTORIO_VERSION=1.1.74
 
 RUN curl -A "Mozilla/5.0 (Windows NT 10.0; rv:100.0) Gecko/20100101 Firefox/100.0" \
   -LO https://www.factorio.com/get-download/${FACTORIO_VERSION}/headless/linux64
