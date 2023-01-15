@@ -1,8 +1,6 @@
 DOCKER := $(if $(shell docker ps >/dev/null 2>&1 && echo ok), docker, sudo docker)
 
-EMPTY :=
-SPACE := $(EMPTY) $(EMPTY)
-DIRNAME := $(lastword $(subst /,$(SPACE),$(subst $(SPACE),_,$(CURDIR))))
+DIRNAME := $(notdir $(CURDIR))
 
 .PHONY: build bootstrap clean purge deploy rm
 
