@@ -7,17 +7,14 @@ DIRNAME := $(notdir $(CURDIR))
 build:
 	$(DOCKER) build . --tag $(DIRNAME)
 
-bootstrap:
-	$(DOCKER) swarm init || true
-
 clean:
 	$(DOCKER) system prune -f
 
 purge: clean
 	$(DOCKER) volume prune -f
 
-deploy:
-	$(DOCKER) stack deploy -c docker-compose.yml $(DIRNAME)
+up:
+	$(DOCKER) compose up
 
-rm:
-	$(DOCKER) stack rm $(DIRNAME)
+down:
+	$(DOCKER) compose down
