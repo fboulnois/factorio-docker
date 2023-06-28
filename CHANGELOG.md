@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.0.5](https://github.com/fboulnois/factorio-docker/compare/v1.0.4...v1.0.5) - 2023-06-28
+
+### Added
+
+* Update build container to debian 12
+* Update factorio to 1.1.80
+
 ## [v1.0.4](https://github.com/fboulnois/factorio-docker/compare/v1.0.3...v1.0.4) - 2022-12-29
 
 ### Added
