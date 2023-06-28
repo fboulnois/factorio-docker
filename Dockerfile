@@ -1,4 +1,4 @@
-FROM debian:11-slim AS env-build
+FROM debian:12-slim AS env-build
 
 RUN apt-get update && apt-get install -y curl xz-utils
 
