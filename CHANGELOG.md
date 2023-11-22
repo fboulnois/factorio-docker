@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.0.8](https://github.com/fboulnois/factorio-docker/compare/v1.0.7...v1.0.8) - 2023-11-23
+
+### Added
+
+* Update factorio to 1.1.94
+
 ## [v1.0.7](https://github.com/fboulnois/factorio-docker/compare/v1.0.6...v1.0.7) - 2023-10-10
 
 ### Added
