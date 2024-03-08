@@ -17,7 +17,7 @@ RUN tar -xf linux64 && /factorio/bin/x64/factorio \
   --create build-server.zip
 
 
-FROM gcr.io/distroless/cc:nonroot AS env-deploy
+FROM gcr.io/distroless/cc-debian12:nonroot AS env-deploy
 
 COPY --from=env-build /factorio/bin/x64/factorio /bin
 COPY --from=env-build /factorio/data /usr/share/factorio
