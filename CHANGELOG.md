@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.1.1](https://github.com/fboulnois/factorio-docker/compare/v1.1.0...v1.1.1) - 2024-03-07
+
+### Added
+
+* Update factorio to 1.1.104
+* Switch to distroless based on debian 12
+
 ## [v1.1.0](https://github.com/fboulnois/factorio-docker/compare/v1.0.9...v1.1.0) - 2024-01-16
 
 ### Added
