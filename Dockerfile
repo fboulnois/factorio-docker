@@ -2,8 +2,8 @@ FROM debian:12-slim AS env-build
 
 RUN apt-get update && apt-get install -y curl xz-utils
 
-ARG FACTORIO_VERSION=1.1.104
-ARG FACTORIO_SHA256="8e13353ab23d57989db7b06594411d30885de1a923f3a989d12749c1abc01583"
+ARG FACTORIO_VERSION=1.1.109
+ARG FACTORIO_SHA256="105a38533c916fe66e2fb2b9fe8f93c116568047a20c4daa74632072c077bf3f"
 
 RUN curl -A "Mozilla/5.0 (Windows NT 10.0; rv:100.0) Gecko/20100101 Firefox/100.0" \
   -LO https://www.factorio.com/get-download/${FACTORIO_VERSION}/headless/linux64 \
