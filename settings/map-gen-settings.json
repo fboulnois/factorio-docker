@@ -1,10 +1,9 @@
 {
-    "terrain_segmentation": 0.5,
-    "water": 1.5,
     "width": 0,
     "height": 0,
     "starting_area": 1.0,
     "peaceful_mode": false,
+    "no_enemies_mode": false,
     "autoplace_controls": {
         "coal": {
             "frequency": 0.3334,
@@ -39,6 +38,11 @@
         "uranium-ore": {
             "frequency": 0.3334,
             "size": 3,
+            "richness": 1
+        },
+        "water": {
+            "frequency": 0.5,
+            "size": 1.5,
             "richness": 1
         }
     },
