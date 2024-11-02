@@ -27,7 +27,6 @@ Building the container and deploying the service is simple.
 
 ```sh
 docker build . --tag factorio-docker
-docker swarm init || true  # this only needs to be run once
 ```
 
 ### Deploy
