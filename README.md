@@ -27,11 +27,10 @@ Building the container and deploying the service is simple.
 
 ```sh
 docker build . --tag factorio-docker
-docker swarm init || true  # this only needs to be run once
 ```
 
 ### Deploy
 
 ```sh
-docker stack deploy -c docker-compose.yml factorio-docker
+docker compose up
 ```
