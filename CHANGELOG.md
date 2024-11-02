@@ -1,5 +1,16 @@
 # Changelog
 
+## [v2.0.0](https://github.com/fboulnois/factorio-docker/compare/v1.1.2...v2.0.0) - 2024-11-02
+
+### Added
+
+* Upgrade factorio to 2.0.13
+
+### Fixed
+
+* Compose no longer requires swarm
+* Remove old Makefile targets
+
 ## [v1.1.2](https://github.com/fboulnois/factorio-docker/compare/v1.1.1...v1.1.2) - 2024-07-03
 
 ### Added
