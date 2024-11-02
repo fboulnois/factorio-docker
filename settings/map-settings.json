@@ -29,9 +29,9 @@
     },
     "enemy_evolution": {
         "enabled": true,
-        "time_factor": 2e-06,
+        "time_factor": 0.000002,
         "destroy_factor": 0.002,
-        "pollution_factor": 9e-07
+        "pollution_factor": 0.0000009
     },
     "enemy_expansion": {
         "enabled": false,
@@ -108,9 +108,11 @@
     },
     "max_failed_behavior_count": 3,
     "difficulty_settings": {
-        "recipe_difficulty": 0,
-        "technology_difficulty": 0,
         "technology_price_multiplier": 1,
-        "research_queue_setting": "always"
+        "spoil_time_modifier": 1
+    },
+    "asteroids": {
+        "spawning_rate": 1,
+        "max_ray_portals_expanded_per_tick": 100
     }
 }
