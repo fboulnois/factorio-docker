@@ -1,5 +1,11 @@
 # Changelog
 
+## [v3.0.0](https://github.com/fboulnois/factorio-docker/compare/v2.0.3...v3.0.0) - 2025-08-24
+
+### Added
+
+* Use factorio-up to autoupdate factorio
+
 ## [v2.0.3](https://github.com/fboulnois/factorio-docker/compare/v2.0.2...v2.0.3) - 2024-12-24
 
 ### Added
