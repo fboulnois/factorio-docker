@@ -7,7 +7,8 @@ a few other similar projects on GitHub but none fit my requirements.
 
 * Built on [Distroless](https://github.com/GoogleContainerTools/distroless)
 containers for portability
-* Uses a non-root user for security
+* Automatically updates the Factorio server on container start
+* Runs as a non-root user for security
 * Only runs `factorio` in the container
 * Simple `Dockerfile` and `docker-compose.yml` files
 * One step deployment that creates a valid server on localhost
