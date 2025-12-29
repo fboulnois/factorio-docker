@@ -1,4 +1,4 @@
-FROM gcr.io/distroless/cc-debian12 AS env-deploy
+FROM gcr.io/distroless/cc-debian13 AS env-deploy
 
 ENV HOME=/home/nonroot
 WORKDIR $HOME
