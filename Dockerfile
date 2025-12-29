@@ -5,8 +5,8 @@ WORKDIR $HOME
 
 EXPOSE 34197/udp
 
-ADD --chmod=755 --checksum=sha256:b5ca7a4b18d02f9d9fc96bf1f9e8e5c820356defc4a400dbdc69ac295a04692b \
-  https://github.com/fboulnois/factorio-up/releases/download/v1.0.0/factorio-up-linux-amd64 /bin/factorio-up
+ADD --chmod=755 --checksum=sha256:69b0a9c5c10171e3d6cc9b5aeacbc78bd332eaeec8e2b82e1da09ca5e4a3b19a \
+  https://github.com/fboulnois/factorio-up/releases/download/v1.2.0/factorio-up-glibc-amd64 /bin/factorio-up
 
 COPY settings/ $HOME/
 
