@@ -1,5 +1,12 @@
 # Changelog
 
+## [v3.1.0](https://github.com/fboulnois/factorio-docker/compare/v3.0.0...v3.1.0) - 2025-12-29
+
+### Added
+
+* Update factorio-up to 1.2.0
+* Update to distroless debian 13
+
 ## [v3.0.0](https://github.com/fboulnois/factorio-docker/compare/v2.0.3...v3.0.0) - 2025-08-24
 
 ### Added
