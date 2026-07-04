@@ -5,11 +5,11 @@ WORKDIR $HOME
 
 EXPOSE 34197/udp
 
-ADD --chmod=755 --checksum=sha256:eed8ce430a483ca2f4165656d47ce51a783d25bbf346a6355871616fe272ce01 \
-  https://github.com/fboulnois/factorio-up/releases/download/v2.0.0/factorio-up-glibc-amd64 /bin/factorio-up
+ADD --chmod=755 --checksum=sha256:3d6a5443d419a3af19dd36181944c68c817e2b1e313e3eebb6fb8f72b9ae431d \
+  https://github.com/fboulnois/factorio-up/releases/download/v2.1.0/factorio-up-glibc-amd64 /bin/factorio-up
 
 COPY settings/ $HOME/
 
-ENTRYPOINT [ "factorio-up", "--user", "nonroot", "--init-map", "true" ]
+ENTRYPOINT [ "factorio-up", "--user", "nonroot", "--init-map" ]
 
 CMD [ "factorio", "--start-server", "server-default.zip", "--server-settings", "server-settings.json" ]
