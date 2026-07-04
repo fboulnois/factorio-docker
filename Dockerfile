@@ -10,6 +10,6 @@ ADD --chmod=755 --checksum=sha256:3d6a5443d419a3af19dd36181944c68c817e2b1e313e3e
 
 COPY settings/ $HOME/
 
-ENTRYPOINT [ "factorio-up", "--user", "nonroot", "--init-map" ]
+ENTRYPOINT [ "factorio-up", "--user", "nonroot", "--init-map", "--experimental" ]
 
 CMD [ "factorio", "--start-server", "server-default.zip", "--server-settings", "server-settings.json" ]
