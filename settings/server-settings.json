@@ -2,8 +2,8 @@
     "name": "My Factorio Docker Server",
     "description": "Description of the game that will appear in the listing",
     "tags": [
-        "vanilla",
-        "railworld"
+        "factorio-distroless",
+        "vanilla"
     ],
     "max_players": 8,
     "visibility": {
